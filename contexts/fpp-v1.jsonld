@@ -1,0 +1,32 @@
+{
+    "@context": {
+        "@protected": true,
+        "RelationshipCredential": {
+            "@id": "https://firstperson.network/credentials/relationship/v1#RelationshipCredential",
+            "@context": {
+                "@protected": true,
+                "id": "@id",
+                "type": "@type"
+            }
+        },
+        "from": {
+            "@id": "https://firstperson.network/credentials/relationship/v1#from",
+            "@type": "@id",
+            "@context": {
+                "did": "https://firstperson.network/credentials/relationship/v1#did",
+                "name": "https://firstperson.network/credentials/relationship/v1#name"
+            }
+        },
+        "to": {
+            "@id": "https://firstperson.network/credentials/relationship/v1#to",
+            "@type": "@id",
+            "@context": {
+                "did": "https://firstperson.network/credentials/relationship/v1#did",
+                "name": "https://firstperson.network/credentials/relationship/v1#name"
+            }
+        },
+        "relationshipType": "https://firstperson.network/credentials/relationship/v1#relationshipType",
+        "startDate": "https://firstperson.network/credentials/relationship/v1#startDate",
+        "endDate": "https://firstperson.network/credentials/relationship/v1#endDate"
+    }
+}
