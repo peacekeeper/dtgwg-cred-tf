@@ -1,6 +1,8 @@
 {
     "@context": {
         "@protected": true,
+        "AgentNameCredential": "https://peacekeeper.github.io/dtgwg-cred-tf/contexts/fpp-v1.jsonld#AgentNameCredential",
+        "agentName": "https://peacekeeper.github.io/dtgwg-cred-tf/contexts/fpp-v1.jsonld#agentName",
         "RelationshipCredential": {
             "@id": "https://firstperson.network/credentials/relationship/v1#RelationshipCredential",
             "@context": {
